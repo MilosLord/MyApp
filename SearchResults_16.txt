@@ -1,0 +1,30 @@
+.field private maxFrameSize:I
+    iput p1, p0, Lokhttp3/internal/http2/Http2Writer;->maxFrameSize:I
+    iget v2, p0, Lokhttp3/internal/http2/Http2Writer;->maxFrameSize:I
+    iget v0, p0, Lokhttp3/internal/http2/Http2Writer;->maxFrameSize:I
+    invoke-virtual {p1, v0}, Lokhttp3/internal/http2/Settings;->getMaxFrameSize(I)I
+    iput v0, p0, Lokhttp3/internal/http2/Http2Writer;->maxFrameSize:I
+    iget v0, p0, Lokhttp3/internal/http2/Http2Writer;->maxFrameSize:I
+    iget p3, p0, Lokhttp3/internal/http2/Http2Writer;->maxFrameSize:I
+    iget v0, p0, Lokhttp3/internal/http2/Http2Writer;->maxFrameSize:I
+    iget p3, p0, Lokhttp3/internal/http2/Http2Writer;->maxFrameSize:I
+    const-string v1, "smta: captureFrameRate="
+    const-string v1, "frameRate"
+    const-string v3, "frameRateMultiplier"
+    const-string v0, "frameRateMultiplier doesn\'t have 2 parts"
+    const-string v4, "subFrameRate"
+    const-string v5, "fps_too_low"
+    const-string v8, "frameRates"
+    invoke-virtual {v7}, Landroid/media/MediaCodecInfo$VideoCapabilities;->getSupportedFrameRates()Landroid/util/Range;
+    const-string v0, "frameRate"
+    const-string v3, "fps_c_"
+    const-string v3, "fps_p_"
+    invoke-virtual {p1, p2}, Landroid/media/metrics/TrackChangeEvent$Builder;->setVideoFrameRate(F)Landroid/media/metrics/TrackChangeEvent$Builder;
+    const-string v2, "Vsync sampling disabled due to platform error"
+    invoke-virtual {p1}, Landroid/view/Display;->getRefreshRate()F
+.field private static final JSON_KEY_AD_TRACKING_DLE:Ljava/lang/String; = "D+S8+FxXJFPsYFc3+F5/Hv=="
+.field private static final JSON_KEY_AD_TRACKING_DLS:Ljava/lang/String; = "D+S8+FxXJFPsYFc3+bfTD+zT"
+    const-string v0, "D+S8+FxXJFPsYFc3+bfTD+zT"
+    const-string v0, "D+S8+FxXJFPsYFc3+F5/Hv=="
+.field private maxFrameSize:I
+    iput p1, p0, Lcom/mbridge/msdk/thrid/okhttp/internal/http2/Http2Writer;->maxFrameSize:I

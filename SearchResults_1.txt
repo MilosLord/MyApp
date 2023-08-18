@@ -1,0 +1,304 @@
+    invoke-virtual {v0}, Landroid/view/Display;->getRefreshRate()F
+    const-string v3, "smta: captureFrameRate="
+    const-string v10, "com.android.capture.fps"
+    const-string v1, "frameRate"
+    const-string v4, "friendsRefreshRate"
+    const-string v4, "uploadStatusRefreshRate"
+.method getMaxFrameSize(I)I
+    .local v5, "frameRate":F
+    .end local v5    # "frameRate":F
+    .local p0, "frameRate":I
+    .local v6, "frameRateString":Ljava/lang/String;
+    .local v2, "frameRateMultiplier":F
+    .local v1, "frameRateMultiplierString":Ljava/lang/String;
+    .local v0, "subFrameRate":I
+    .local v7, "subFrameRateString":Ljava/lang/String;
+    .local v7, "subFrameRateString":Ljava/lang/String;
+    .end local v7    # "subFrameRateString":Ljava/lang/String;
+    const-string v5, "ZVN5NvQX1lR02F2nkBpRehMiTRLfpSWC"
+    .local v2, "latestFrameVsyncMs":J
+    .end local v2    # "latestFrameVsyncMs":J
+    const-string v0, "4jv2LQemXeCXPfpssPDUuPD2TleIiZzb"
+    const-string v0, "JdFW5Fpsu4G"
+    .local v2, "refreshRate":F
+    invoke-virtual {v1}, Landroid/view/Display;->getRefreshRate()F
+    .local v1, "displayRefreshRate":F
+    .end local v1    # "displayRefreshRate":F
+    .end local v2    # "refreshRate":F
+    name = "VSyncSampler"
+    .local p0, "vsyncCount":J
+    invoke-virtual {v0}, Landroid/view/Display;->getRefreshRate()F
+    .local v0, "defaultDisplayRefreshRate":D
+    .end local v0    # "defaultDisplayRefreshRate":D
+    .local v14, "sampledVsyncTimeNs":J
+    .end local v14    # "sampledVsyncTimeNs":J
+    .local p2, "sampledVsyncTimeNs":J
+    const-string v0, "jaoFPfR2hwKJJkyxUt0jn5KhPySOFpSP"
+    const-string v3, "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MzFDMzcxQzQ1REIxMTFFNjlEQzQ5NzQ5NkM2MkM3OUYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MzFDMzcxQzU1REIxMTFFNjlEQzQ5NzQ5NkM2MkM3OUYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozMUMzNzFDMjVEQjExMUU2OURDNDk3NDk2QzYyQzc5RiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozMUMzNzFDMzVEQjExMUU2OURDNDk3NDk2QzYyQzc5RiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PoW1QkAAAANaSURBVHjajJVPaBNBFMYnu5tkS2oLSkwOalGLoFWsVWnRQ6EoImi1CF5EKUiL0GovloAHi/8QvXmwBy+ieBMFi2irVDz1jwjSoniREtTWRlujbdIkTTbx97YbWEMFB77M7Mx733zz5s2LJ5lMqmg0qgqFgo10Om330oo9LQy84AdIK49HaUBWfV6v8vl8KpfLqXA4rAwhi0Qi9kTOstTExITKZDJCth0049MINgDDIRwGzyHqh9AKhUIqDObn51V7e7syREU2m1VZCPP5vJAFU6nUdZxOigD1d1sL6kDH4uLikKZp3QgZEjF82/4oR76uK8MwhKyGI7/G4TTzPln7F2h7EDKYTqVaRZTMSW+IstnZWfuYU1NT99llCzur/2m6rpvTsdhdQhWH/EkikVBGjuPG43EPl7OPXZ6CumV8v4BfwA9kt5TcmSywuT4zM3MG/wEI03YMidk28LCsrOxIvlA4XMjnd8g8xmPgBqpz+Fps9o5vxGSbGSeLuzFnYl/LcMQmJKhH+aik7/J6vT2ZdLqPmI77/f5zbHQBm/3iR/+V9YugdmFhoc2Jpd0Yj/GzU4x0PhplEcIWIkto9GeY9hLXHtQdcI4pbQ232YvdI+yj7pjAs1lSTQxXgfXOLpJCV1Fw3srnv+PY5FbhOJrY7GX4qiTOkmKbNCdh9eIsimpAEyonS8lcLQAWlrt4IYyDGVcsROVlesQUvpV6OJf1luGu0iUwXUyB4RKnlSjsqqysPMt4zk1mmuZt3m6GcUMJ4WfwxnAyvw+DjuIRpefFnLBIWIiPs1Yvx2T+Pd+PWRtZJhwveHbzmpNHgxiMllpwo53E8w6EG8FqyDyEo52NtpacaBGOWzYXRqq8vNwKBAJddmlyNUfFOnAKHMMpys1H3OokDPhfCwaDH3gYSiNFlJSgqqqqURbaSBdruYvArhu1LSDknucB3MP/CvFWftNcqjai0oamPTB9vkPMfXITomyU9Y+o6yyqgyzF5fSwUav9uTSpDOKhpEpIP0eR5HX0M95NrNowOY5hdZlp3qSAXkKd5OwEsXiJEnkx41IDKyoqVILKLzXRE4vFVP/AgKIgqN9zc8qSQuv8HQDRU214vT/Z4CBkk5IazCWLdVRUrYBQinRDfb36I8AAM/36a/6Lhx8AAAAASUVORK5CYII="
+172:    const-string v3, "smta: captureFrameRate=" 
+672:    const-string v10, "com.android.capture.fps" 
+1810:    const-string v1, "frameRate" 
+215:    const-string v4, "friendsRefreshRate" 
+651:    const-string v4, "uploadStatusRefreshRate" 
+187:.method getMaxFrameSize(I)I 
+1057:    .local v5, "frameRate":F 
+1108:    .end local v5    # "frameRate":F 
+1017:    .local p0, "frameRate":I 
+1043:    .local v6, "frameRateString":Ljava/lang/String; 
+1056:    .local v2, "frameRateMultiplier":F 
+1098:    .local v1, "frameRateMultiplierString":Ljava/lang/String; 
+1168:    .local v0, "subFrameRate":I 
+1214:    .local v7, "subFrameRateString":Ljava/lang/String; 
+1286:    .local v7, "subFrameRateString":Ljava/lang/String; 
+1292:    .end local v7    # "subFrameRateString":Ljava/lang/String; 
+2336:    const-string v5, "ZVN5NvQX1lR02F2nkBpRehMiTRLfpSWC" 
+1099:    .local v2, "latestFrameVsyncMs":J 
+1206:    .end local v2    # "latestFrameVsyncMs":J 
+112:    const-string v0, "4jv2LQemXeCXPfpssPDUuPD2TleIiZzb" 
+100:    const-string v0, "JdFW5Fpsu4G" 
+14872:    .local v2, "refreshRate":F 
+14882:    invoke-virtual {v1}, Landroid/view/Display;->getRefreshRate()F 
+14887:    .local v1, "displayRefreshRate":F 
+14932:    .end local v1    # "displayRefreshRate":F 
+14953:    .end local v2    # "refreshRate":F 
+17:    name = "VSyncSampler" 
+230:    .local p0, "vsyncCount":J 
+702:    .local v14, "sampledVsyncTimeNs":J 
+714:    .end local v14    # "sampledVsyncTimeNs":J 
+715:    .local p2, "sampledVsyncTimeNs":J 
+377:    invoke-virtual {v0}, Landroid/view/Display;->getRefreshRate()F 
+384:    .local v0, "defaultDisplayRefreshRate":D 
+435:    .end local v0    # "defaultDisplayRefreshRate":D 
+88:    const-string v0, "jaoFPfR2hwKJJkyxUt0jn5KhPySOFpSP" 
+197:    const-string v3, "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MzFDMzcxQzQ1REIxMTFFNjlEQzQ5NzQ5NkM2MkM3OUYiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MzFDMzcxQzU1REIxMTFFNjlEQzQ5NzQ5NkM2MkM3OUYiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozMUMzNzFDMjVEQjExMUU2OURDNDk3NDk2QzYyQzc5RiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozMUMzNzFDMzVEQjExMUU2OURDNDk3NDk2QzYyQzc5RiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PoW1QkAAAANaSURBVHjajJVPaBNBFMYnu5tkS2oLSkwOalGLoFWsVWnRQ6EoImi1CF5EKUiL0GovloAHi/8QvXmwBy+ieBMFi2irVDz1jwjSoniREtTWRlujbdIkTTbx97YbWEMFB77M7Mx733zz5s2LJ5lMqmg0qgqFgo10Om330oo9LQy84AdIK49HaUBWfV6v8vl8KpfLqXA4rAwhi0Qi9kTOstTExITKZDJCth0049MINgDDIRwGzyHqh9AKhUIqDObn51V7e7syREU2m1VZCPP5vJAFU6nUdZxOigD1d1sL6kDH4uLikKZp3QgZEjF82/4oR76uK8MwhKyGI7/G4TTzPln7F2h7EDKYTqVaRZTMSW+IstnZWfuYU1NT99llCzur/2m6rpvTsdhdQhWH/EkikVBGjuPG43EPl7OPXZ6CumV8v4BfwA9kt5TcmSywuT4zM3MG/wEI03YMidk28LCsrOxIvlA4XMjnd8g8xmPgBqpz+Fps9o5vxGSbGSeLuzFnYl/LcMQmJKhH+aik7/J6vT2ZdLqPmI77/f5zbHQBm/3iR/+V9YugdmFhoc2Jpd0Yj/GzU4x0PhplEcIWIkto9GeY9hLXHtQdcI4pbQ232YvdI+yj7pjAs1lSTQxXgfXOLpJCV1Fw3srnv+PY5FbhOJrY7GX4qiTOkmKbNCdh9eIsimpAEyonS8lcLQAWlrt4IYyDGVcsROVlesQUvpV6OJf1luGu0iUwXUyB4RKnlSjsqqysPMt4zk1mmuZt3m6GcUMJ4WfwxnAyvw+DjuIRpefFnLBIWIiPs1Yvx2T+Pd+PWRtZJhwveHbzmpNHgxiMllpwo53E8w6EG8FqyDyEo52NtpacaBGOWzYXRqq8vNwKBAJddmlyNUfFOnAKHMMpys1H3OokDPhfCwaDH3gYSiNFlJSgqqqqURbaSBdruYvArhu1LSDknucB3MP/CvFWftNcqjai0oamPTB9vkPMfXITomyU9Y+o6yyqgyzF5fSwUav9uTSpDOKhpEpIP0eR5HX0M95NrNowOY5hdZlp3qSAXkKd5OwEsXiJEnkx41IDKyoqVILKLzXRE4vFVP/AgKIgqN9zc8qSQuv8HQDRU214vT/Z4CBkk5IazCWLdVRUrYBQinRDfb36I8AAM/36a/6Lhx8AAAAASUVORK5CYII=" 
+514:    const-string v6, "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAcdSURBVHgB7ZxPcBNVHMd/72UbUyljwANwIsJ4YoTWi17QbcCDXsh48AIz/DnItDCDhYM3pUcuFpS21kvpDJ48ND15AMyiBwcvjTh4ASU9KQc1M7RNWrLv+fu9/KFJN5v9m7YJn5k2abLZ7n739/293/ttdhm0EX1axiOFZR0k2yt5pJ+BSEiAROXtRN3CUuaB8RwDmZfAcyBKC4ILA2J9WeM0y0ObYBAiJAgsLvazSCTFGDsGjSJ4hmVRwSyTYu7O8LY0hEgoAulfPdWVKAAngbE4hImKNJYWUJoxhrYbEDCBCpQcXzyF1jmJK9VhY8gxCZfvDPfOQEAEIhBFDNe0aQjMQr4JTChfAumThQSuYHoDI8Yesp6UI8ZQbw48wsEjR74uXuBSzm9acQgpU7iDj5OThc/BI64jiEYmVizObmphrPAYTa4EIkvhEcnA5sk1bskJgEE3Ijm2mD6+2E+Wgq0rDqEOsP7Nar/TDziKICUO45nQa5q2wfIiwgeNj6PZlku2WkDZiiKnY8SpgiKBHGhlN1uL1XJOx4lDyLiyG+6j3VK8xZtbOSE7AQOAzdot0FSg5NQK1Q4J6Hhkf3JieazZu5Y5qDJ1yEAXgZPdQavJrmUEVeZVXQUHbVq1Z9a93kD3WGsdCb68/Enji3UW69wh3Sk49Mdeem1tx7IugrBDd7l7xSFw6G+IoloEqdYFzc67WiCiPopqEcSFqb8Qh8AoKhROVf96bjHGL8ALFJUTDAolkJrdMuZ4htvp4KkoXZ98qtNzJRAvlXToMHb1Mbjyfg9cPxaFfTvdd5a54Lp6pF9yTUiFDW34wd3M00Y7hdZ/5YMeOLiHw/5XGVx6RwO3MM7fpUdNH/sv3o72KW308QFNbXSVJ4sSbs6X4PZDAUGROhCBs2/VC7K4Aq5RNsPKWoNYLPTcQ8KcGIise52i6dLhHti/swRT90zww7Yog8+O1B+AKl/8VAJPFLFRiJVzqAKRCFbirCV1QIMbH0XVsl7Yj3YdT/VYivMtRihFqhe4jGCbOeR5F+UCJ5A446koHH3d3ZkostT1lLW4T55KmH3gw76MHdLoF4TEe7izbqJiWxSU5Xb1lfDImy2WZZhrIvg/mkfnTVzH0qq36CEkyB0cpxehVM8kDOUeL5wYsLdcOdp6bMW59dCE24/85TUG7FBoFjuOecdrTiFUHYP2bLTcURSFxLFbN1mrVQQ6RQtj/kXWsju6TqmOcgd3m/DbXwLe2ONsvenfTc+JuYGENw/YQLnBq7WaQaI4FZyiJ/0gmOghPH95oRk0qvixll8+/f4ZBEmgAjmpecLET83TDBIoBwHhtOYJA7LWzfngrFUhF1iycGotGn7dJFynhCAOSCnzVChm8VkCfEDCkEB2LK1ImPrFVAIRtx4JFEqWy4Ht/nJWEDWPFZyxPJdCLIBPWtU8FP7n5p7VxKlyC3eKkiq975Uga55GhJS/cuYzB7WqeW6jKCROs+RJr5/6btXzTpK1gk7MVUgbTWiawU1vG9eq5pm6V3Jck1BfiKLh7NsRtV4n0PJhWKuKYGaWw9JSjpIReKBZYqYNP59edV2wkeXOpZ1bLuiapxE6V8+NkR15lahd0qzm+XmhbKk//vUW9lXLtRI3jJpnLXjYDXpU/sAZ/RyKpLv4PFw8vN5abizVClrXn/+sH+XuY4lA+er+38G1aa0weeQGPaq9FCsrN3gsNuZmBdS7qUKWoLZm0BtNlqMf6hhSXqKICTNq6hDmXXqoHZrByULGTfOeNnoEo2hptdzzbduGtwGy152h3kF6XvMJ7t6MG4Eox5yfCzdJbhRVexHPJ6vFYtrraNZJYKA8Ns5GaxfB1ASi0QybZ9egy5E8Mrr277p2hygWr3ZzFDVGD1EnEEWRjPBR6FIao4ewrOndjmidAEVPZqh3X+Prlh1FKcwR6DJQoKTV65YCGef6soKz7hFJiNFm12zYTpuTE8VZnIekoLOZ/mGo90yzN22b9mKlcFoG2LPebFDeEbHYRbtlbAVSoxrm7E4UicShvNPqLg7OLqgrX91MI1sCOoCaOA4uzXTcLe8UkdyIQ3i5qPcxbFFQmIyMxT50c3MU1+dbkhPL81vwK8M4g5LXMsMvuy5dXJ84lHiuaOPOvLunYqkzxvDLBnjA/bl56f88WpugqLmKlnoT840BHgn86y+bAIkRY+B06SLNCMAnnSSQrNx+4ks/EdPIVhZIVn4ZmBN/xIr4ahi37vIgkPONUBsvzBkW0V6RAnQJws8lV2VBsKHHgBuMw10TT1f5ufWNE1wLxMq3xGr6vtoBbN1aHFHVzqXbXODnE1xCP46IcdzZvZLJOH4wXhVPlv9HnklWfmQyawpzARjP4miUgzbi/vY4kwW9csOBOmi+hiubCSvUNwpPJY0+sZRijI/RtEONGACjQSbGzcT/SrcNjD0Yg+0AAAAASUVORK5CYII=" 
+70:    const-string v0, "OfpsRfCrHKp957e6" 
+372:    .local v0, "frameRateCodeMinusOne":I 
+385:    .local v2, "frameRate":D 
+399:    .local v0, "frameRateExtensionN":I 
+431:    .end local v0    # "frameRateExtensionN":I 
+437:    .restart local v0    # "frameRateExtensionN":I 
+450:    .end local v0    # "frameRateExtensionN":I 
+469:    .local v1, "frameRateExtensionD":I 
+474:    .end local v1    # "frameRateExtensionD":I 
+483:    .end local v2    # "frameRate":D 
+488:    .local v16, "frameRateExtensionN":I 
+503:    .restart local v16    # "frameRateExtensionN":I 
+684:    .local p0, "avSyncHeaderBytesRemaining":I 
+1539:    const-string v3, "frameRate" 
+71:.field private avSyncHeader:Ljava/nio/ByteBuffer; 
+75:.field private bytesUntilNextAvSync:I 
+1770:    invoke-direct/range {v6 .. v11}, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->writeNonBlockingWithAvSyncV21(Landroid/media/AudioTrack;Ljava/nio/ByteBuffer;IJ)I 
+1859:.method private writeNonBlockingWithAvSyncV21(Landroid/media/AudioTrack;Ljava/nio/ByteBuffer;IJ)I 
+1863:    iget-object v0, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->avSyncHeader:Ljava/nio/ByteBuffer; 
+1874:    iput-object v0, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->avSyncHeader:Ljava/nio/ByteBuffer; 
+1882:    iget-object v0, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->avSyncHeader:Ljava/nio/ByteBuffer; 
+1890:    iget v0, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->bytesUntilNextAvSync:I 
+1897:    iget-object v0, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->avSyncHeader:Ljava/nio/ByteBuffer; 
+1904:    iget-object v0, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->avSyncHeader:Ljava/nio/ByteBuffer; 
+1915:    iget-object p4, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->avSyncHeader:Ljava/nio/ByteBuffer; 
+1920:    iput p3, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->bytesUntilNextAvSync:I 
+1924:    iget-object p4, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->avSyncHeader:Ljava/nio/ByteBuffer; 
+1933:    iget-object p5, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->avSyncHeader:Ljava/nio/ByteBuffer; 
+1944:    iput v1, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->bytesUntilNextAvSync:I 
+1962:    iput v1, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->bytesUntilNextAvSync:I 
+1968:    iget p2, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->bytesUntilNextAvSync:I 
+1972:    iput p2, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->bytesUntilNextAvSync:I 
+3306:    iput v0, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->bytesUntilNextAvSync:I 
+3478:    iput-object v4, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->avSyncHeader:Ljava/nio/ByteBuffer; 
+3481:    iput v2, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->bytesUntilNextAvSync:I 
+593:    iget v8, p1, Lcom/mbridge/msdk/playercommon/exoplayer2/Format;->frameRate:F 
+3788:    iget v1, p1, Lcom/mbridge/msdk/playercommon/exoplayer2/Format;->frameRate:F 
+5442:    iget p3, p3, Lcom/mbridge/msdk/playercommon/exoplayer2/Format;->frameRate:F 
+1:.class Lcom/unity3d/player/HFPStatus$1; 
+7:    value = Lcom/unity3d/player/HFPStatus;->requestHFPStat()V 
+17:.field final synthetic a:Lcom/unity3d/player/HFPStatus; 
+21:.method constructor <init>(Lcom/unity3d/player/HFPStatus;)V 
+24:    iput-object p1, p0, Lcom/unity3d/player/HFPStatus$1;->a:Lcom/unity3d/player/HFPStatus; 
+51:    iget-object p1, p0, Lcom/unity3d/player/HFPStatus$1;->a:Lcom/unity3d/player/HFPStatus; 
+53:    sget p2, Lcom/unity3d/player/HFPStatus$a;->b:I 
+55:    invoke-static {p1, p2}, Lcom/unity3d/player/HFPStatus;->a(Lcom/unity3d/player/HFPStatus;I)I 
+57:    iget-object p1, p0, Lcom/unity3d/player/HFPStatus$1;->a:Lcom/unity3d/player/HFPStatus; 
+59:    invoke-static {p1}, Lcom/unity3d/player/HFPStatus;->a(Lcom/unity3d/player/HFPStatus;)V 
+61:    iget-object p1, p0, Lcom/unity3d/player/HFPStatus$1;->a:Lcom/unity3d/player/HFPStatus; 
+63:    invoke-static {p1}, Lcom/unity3d/player/HFPStatus;->b(Lcom/unity3d/player/HFPStatus;)Z 
+69:    iget-object p1, p0, Lcom/unity3d/player/HFPStatus$1;->a:Lcom/unity3d/player/HFPStatus; 
+71:    invoke-static {p1}, Lcom/unity3d/player/HFPStatus;->c(Lcom/unity3d/player/HFPStatus;)Landroid/media/AudioManager; 
+1:.class final Lcom/unity3d/player/HFPStatus$a; 
+7:    value = Lcom/unity3d/player/HFPStatus; 
+40:    sput-object v1, Lcom/unity3d/player/HFPStatus$a;->c:[I 
+1:.class public Lcom/unity3d/player/HFPStatus; 
+8:        Lcom/unity3d/player/HFPStatus$a; 
+37:    iput-object v0, p0, Lcom/unity3d/player/HFPStatus;->b:Landroid/content/BroadcastReceiver; 
+39:    iput-object v0, p0, Lcom/unity3d/player/HFPStatus;->c:Landroid/content/Intent; 
+43:    iput-boolean v1, p0, Lcom/unity3d/player/HFPStatus;->d:Z 
+45:    iput-object v0, p0, Lcom/unity3d/player/HFPStatus;->e:Landroid/media/AudioManager; 
+47:    iput-boolean v1, p0, Lcom/unity3d/player/HFPStatus;->f:Z 
+49:    sget v0, Lcom/unity3d/player/HFPStatus$a;->a:I 
+51:    iput v0, p0, Lcom/unity3d/player/HFPStatus;->g:I 
+53:    iput-object p1, p0, Lcom/unity3d/player/HFPStatus;->a:Landroid/content/Context; 
+63:    iput-object p1, p0, Lcom/unity3d/player/HFPStatus;->e:Landroid/media/AudioManager; 
+65:    invoke-direct {p0}, Lcom/unity3d/player/HFPStatus;->initHFPStatusJni()V 
+70:.method static synthetic a(Lcom/unity3d/player/HFPStatus;I)I 
+73:    iput p1, p0, Lcom/unity3d/player/HFPStatus;->g:I 
+78:.method static synthetic a(Lcom/unity3d/player/HFPStatus;)V 
+81:    invoke-direct {p0}, Lcom/unity3d/player/HFPStatus;->c()V 
+89:    iget-object v0, p0, Lcom/unity3d/player/HFPStatus;->b:Landroid/content/BroadcastReceiver; 
+93:    iget-object v1, p0, Lcom/unity3d/player/HFPStatus;->a:Landroid/content/Context; 
+99:    iput-object v0, p0, Lcom/unity3d/player/HFPStatus;->b:Landroid/content/BroadcastReceiver; 
+101:    iput-object v0, p0, Lcom/unity3d/player/HFPStatus;->c:Landroid/content/Intent; 
+104:    sget v0, Lcom/unity3d/player/HFPStatus$a;->a:I 
+106:    iput v0, p0, Lcom/unity3d/player/HFPStatus;->g:I 
+111:.method static synthetic b(Lcom/unity3d/player/HFPStatus;)Z 
+114:    iget-boolean p0, p0, Lcom/unity3d/player/HFPStatus;->d:Z 
+119:.method static synthetic c(Lcom/unity3d/player/HFPStatus;)Landroid/media/AudioManager; 
+122:    iget-object p0, p0, Lcom/unity3d/player/HFPStatus;->e:Landroid/media/AudioManager; 
+130:    iget-boolean v0, p0, Lcom/unity3d/player/HFPStatus;->f:Z 
+136:    iput-boolean v0, p0, Lcom/unity3d/player/HFPStatus;->f:Z 
+138:    iget-object v0, p0, Lcom/unity3d/player/HFPStatus;->e:Landroid/media/AudioManager; 
+146:.method private final native deinitHFPStatusJni()V 
+149:.method private final native initHFPStatusJni()V 
+157:    invoke-virtual {p0}, Lcom/unity3d/player/HFPStatus;->clearHFPStat()V 
+159:    invoke-direct {p0}, Lcom/unity3d/player/HFPStatus;->deinitHFPStatusJni()V 
+164:.method protected clearHFPStat()V 
+167:    invoke-direct {p0}, Lcom/unity3d/player/HFPStatus;->b()V 
+169:    invoke-direct {p0}, Lcom/unity3d/player/HFPStatus;->c()V 
+174:.method protected getHFPStat()Z 
+177:    iget v0, p0, Lcom/unity3d/player/HFPStatus;->g:I 
+179:    sget v1, Lcom/unity3d/player/HFPStatus$a;->b:I 
+193:.method protected requestHFPStat()V 
+196:    invoke-virtual {p0}, Lcom/unity3d/player/HFPStatus;->clearHFPStat()V 
+198:    new-instance v0, Lcom/unity3d/player/HFPStatus$1; 
+200:    invoke-direct {v0, p0}, Lcom/unity3d/player/HFPStatus$1;-><init>(Lcom/unity3d/player/HFPStatus;)V 
+202:    iput-object v0, p0, Lcom/unity3d/player/HFPStatus;->b:Landroid/content/BroadcastReceiver; 
+204:    iget-object v1, p0, Lcom/unity3d/player/HFPStatus;->a:Landroid/content/Context; 
+216:    iput-object v0, p0, Lcom/unity3d/player/HFPStatus;->c:Landroid/content/Intent; 
+221:    iput-boolean v0, p0, Lcom/unity3d/player/HFPStatus;->f:Z 
+223:    iget-object v0, p0, Lcom/unity3d/player/HFPStatus;->e:Landroid/media/AudioManager; 
+244:    iput-boolean p1, p0, Lcom/unity3d/player/HFPStatus;->d:Z 
+248:    iget-object p1, p0, Lcom/unity3d/player/HFPStatus;->e:Landroid/media/AudioManager; 
+82:.field private m_HFPStatus:Lcom/unity3d/player/HFPStatus; 
+191:    iput-object v2, p0, Lcom/unity3d/player/UnityPlayer;->m_HFPStatus:Lcom/unity3d/player/HFPStatus; 
+455:    new-instance p1, Lcom/unity3d/player/HFPStatus; 
+459:    invoke-direct {p1, p2}, Lcom/unity3d/player/HFPStatus;-><init>(Landroid/content/Context;)V 
+461:    iput-object p1, p0, Lcom/unity3d/player/UnityPlayer;->m_HFPStatus:Lcom/unity3d/player/HFPStatus; 
+2140:    iget-object v0, p0, Lcom/unity3d/player/UnityPlayer;->m_HFPStatus:Lcom/unity3d/player/HFPStatus; 
+2144:    invoke-virtual {v0}, Lcom/unity3d/player/HFPStatus;->a()V 
+2146:    iput-object v1, p0, Lcom/unity3d/player/UnityPlayer;->m_HFPStatus:Lcom/unity3d/player/HFPStatus; 
+38:.field private refreshRate:J 
+65:    iput-wide v1, p0, Lcom/unity3d/services/banners/UnityBanners$BannerAdRefreshView;->refreshRate:J 
+152:    iget-wide v3, p0, Lcom/unity3d/services/banners/UnityBanners$BannerAdRefreshView;->refreshRate:J 
+415:    invoke-virtual {v0, v1}, Lcom/unity3d/services/banners/properties/BannerRefreshInfo;->getRefreshRate(Ljava/lang/String;)Ljava/lang/Integer; 
+426:    iput-wide v0, p0, Lcom/unity3d/services/banners/UnityBanners$BannerAdRefreshView;->refreshRate:J 
+144:.field private mLastFps:F 
+415:    iput v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mLastFps:F 
+644:    iput v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mLastFps:F 
+875:    iput p3, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mLastFps:F 
+4178:    iput v1, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mLastFps:F 
+4226:    iget v5, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mLastFps:F 
+4230:    const-string v5, " fps " 
+26:    invoke-virtual {p0, p1, v0}, Landroid/view/Surface;->setFrameRate(FI)V 
+37:    const-string v0, "Failed to call Surface.setFrameRate" 
+504:    invoke-static {v0}, Lcom/google/zxing/client/android/camera/CameraConfigurationUtils;->setBestPreviewFPS(Landroid/hardware/Camera$Parameters;)V 
+1739:    const-string v1, ", fps=" 
+44:.field public final frameRate:F 
+169:    iput v0, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/Format;->frameRate:F 
+424:    iput v1, v0, Lcom/mbridge/msdk/playercommon/exoplayer2/Format;->frameRate:F 
+1731:    iget v1, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/Format;->frameRate:F 
+1744:    iget v1, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/Format;->frameRate:F 
+1834:    iget v10, v0, Lcom/mbridge/msdk/playercommon/exoplayer2/Format;->frameRate:F 
+1927:    iget v10, v0, Lcom/mbridge/msdk/playercommon/exoplayer2/Format;->frameRate:F 
+2026:    iget v10, v0, Lcom/mbridge/msdk/playercommon/exoplayer2/Format;->frameRate:F 
+2129:    iget v3, v0, Lcom/mbridge/msdk/playercommon/exoplayer2/Format;->frameRate:F 
+2137:    iget v3, v1, Lcom/mbridge/msdk/playercommon/exoplayer2/Format;->frameRate:F 
+2273:    iget v10, v0, Lcom/mbridge/msdk/playercommon/exoplayer2/Format;->frameRate:F 
+2374:    iget v10, v0, Lcom/mbridge/msdk/playercommon/exoplayer2/Format;->frameRate:F 
+2471:    iget v10, v0, Lcom/mbridge/msdk/playercommon/exoplayer2/Format;->frameRate:F 
+2570:    iget v10, v0, Lcom/mbridge/msdk/playercommon/exoplayer2/Format;->frameRate:F 
+2699:    iget v2, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/Format;->frameRate:F 
+2701:    iget v3, p1, Lcom/mbridge/msdk/playercommon/exoplayer2/Format;->frameRate:F 
+3242:    iget v2, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/Format;->frameRate:F 
+3315:    iget v0, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/Format;->frameRate:F 
+699:.method private static avcLevelToMaxFrameSize(I)I 
+2665:    invoke-static {v4}, Lcom/mbridge/msdk/playercommon/exoplayer2/mediacodec/MediaCodecUtil;->avcLevelToMaxFrameSize(I)I 
+18:.field final effectiveFrameRate:F 
+20:.field final subFrameRate:I 
+33:    iput p1, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/text/ttml/TtmlDecoder$FrameAndTickRate;->effectiveFrameRate:F 
+36:    iput p2, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/text/ttml/TtmlDecoder$FrameAndTickRate;->subFrameRate:I 
+729:    const-string v1, "frameRate" 
+751:    const-string v3, "frameRateMultiplier" 
+804:    const-string v0, "frameRateMultiplier doesn\'t have 2 parts" 
+815:    iget v3, v3, Lcom/mbridge/msdk/playercommon/exoplayer2/text/ttml/TtmlDecoder$FrameAndTickRate;->subFrameRate:I 
+817:    const-string v4, "subFrameRate" 
+2516:    iget v1, p1, Lcom/mbridge/msdk/playercommon/exoplayer2/text/ttml/TtmlDecoder$FrameAndTickRate;->effectiveFrameRate:F 
+2546:    iget p0, p1, Lcom/mbridge/msdk/playercommon/exoplayer2/text/ttml/TtmlDecoder$FrameAndTickRate;->subFrameRate:I 
+2552:    iget p0, p1, Lcom/mbridge/msdk/playercommon/exoplayer2/text/ttml/TtmlDecoder$FrameAndTickRate;->effectiveFrameRate:F 
+2733:    iget p0, p1, Lcom/mbridge/msdk/playercommon/exoplayer2/text/ttml/TtmlDecoder$FrameAndTickRate;->effectiveFrameRate:F 
+140:    sget-object v2, Landroid/hardware/camera2/CaptureRequest;->CONTROL_AE_TARGET_FPS_RANGE:Landroid/hardware/camera2/CaptureRequest$Key; 
+2011:    sget-object p3, Landroid/hardware/camera2/CameraCharacteristics;->CONTROL_AE_AVAILABLE_TARGET_FPS_RANGES:Landroid/hardware/camera2/CameraCharacteristics$Key; 
+2186:    const-string p1, "Camera2: target FPS ranges are not avialable." 
+88:.method public static setRefreshRate(Ljava/lang/String;Ljava/lang/Integer;Lcom/unity3d/services/core/webview/bridge/WebViewCallback;)V 
+102:    invoke-virtual {v0, p0, p1}, Lcom/unity3d/services/banners/properties/BannerRefreshInfo;->setRefreshRate(Ljava/lang/String;Ljava/lang/Integer;)V 
+1810:    invoke-virtual {v1, v2, v3}, Lcom/vungle/warren/CacheBustManager;->setRefreshRate(J)V 
+22:.field private maxFrameSize:I 
+76:    iput p1, p0, Lokhttp3/internal/http2/Http2Writer;->maxFrameSize:I 
+97:    iget v2, p0, Lokhttp3/internal/http2/Http2Writer;->maxFrameSize:I 
+190:    iget v0, p0, Lokhttp3/internal/http2/Http2Writer;->maxFrameSize:I 
+192:    invoke-virtual {p1, v0}, Lokhttp3/internal/http2/Settings;->getMaxFrameSize(I)I 
+196:    iput v0, p0, Lokhttp3/internal/http2/Http2Writer;->maxFrameSize:I 
+567:    iget v0, p0, Lokhttp3/internal/http2/Http2Writer;->maxFrameSize:I 
+795:    iget p3, p0, Lokhttp3/internal/http2/Http2Writer;->maxFrameSize:I 
+878:    iget v0, p0, Lokhttp3/internal/http2/Http2Writer;->maxFrameSize:I 
+999:    iget p3, p0, Lokhttp3/internal/http2/Http2Writer;->maxFrameSize:I 
+202:    const-string v1, "smta: captureFrameRate=" 
+698:    const-string v1, "frameRate" 
+718:    const-string v3, "frameRateMultiplier" 
+765:    const-string v0, "frameRateMultiplier doesn\'t have 2 parts" 
+777:    const-string v4, "subFrameRate" 
+833:    const-string v5, "fps_too_low" 
+326:    const-string v8, "frameRates" 
+329:    invoke-virtual {v7}, Landroid/media/MediaCodecInfo$VideoCapabilities;->getSupportedFrameRates()Landroid/util/Range; 
+689:    const-string v0, "frameRate" 
+421:    const-string v3, "fps_c_" 
+444:    const-string v3, "fps_p_" 
+816:    invoke-virtual {p1, p2}, Landroid/media/metrics/TrackChangeEvent$Builder;->setVideoFrameRate(F)Landroid/media/metrics/TrackChangeEvent$Builder; 
+197:    const-string v2, "Vsync sampling disabled due to platform error" 
+126:    invoke-virtual {p1}, Landroid/view/Display;->getRefreshRate()F 
+11:.field private static final JSON_KEY_AD_TRACKING_DLE:Ljava/lang/String; = "D+S8+FxXJFPsYFc3+F5/Hv==" 
+13:.field private static final JSON_KEY_AD_TRACKING_DLS:Ljava/lang/String; = "D+S8+FxXJFPsYFc3+bfTD+zT" 
+485:    const-string v0, "D+S8+FxXJFPsYFc3+bfTD+zT" 
+503:    const-string v0, "D+S8+FxXJFPsYFc3+F5/Hv==" 
+22:.field private maxFrameSize:I 
+76:    iput p1, p0, Lcom/mbridge/msdk/thrid/okhttp/internal/http2/Http2Writer;->maxFrameSize:I 
+97:    iget v2, p0, Lcom/mbridge/msdk/thrid/okhttp/internal/http2/Http2Writer;->maxFrameSize:I 
+190:    iget v0, p0, Lcom/mbridge/msdk/thrid/okhttp/internal/http2/Http2Writer;->maxFrameSize:I 
+192:    invoke-virtual {p1, v0}, Lcom/mbridge/msdk/thrid/okhttp/internal/http2/Settings;->getMaxFrameSize(I)I 
+196:    iput v0, p0, Lcom/mbridge/msdk/thrid/okhttp/internal/http2/Http2Writer;->maxFrameSize:I 
+567:    iget v0, p0, Lcom/mbridge/msdk/thrid/okhttp/internal/http2/Http2Writer;->maxFrameSize:I 
+850:    iget p3, p0, Lcom/mbridge/msdk/thrid/okhttp/internal/http2/Http2Writer;->maxFrameSize:I 
+918:    iget v0, p0, Lcom/mbridge/msdk/thrid/okhttp/internal/http2/Http2Writer;->maxFrameSize:I 
+1039:    iget p3, p0, Lcom/mbridge/msdk/thrid/okhttp/internal/http2/Http2Writer;->maxFrameSize:I 
+21:.field private overrideRefreshRate:J 
+25:.field refreshRate:J 
+44:    iput-wide v1, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J 
+49:    iput-wide v1, p0, Lcom/vungle/warren/CacheBustManager;->overrideRefreshRate:J 
+140:.method overrideRefreshRate(J)V 
+144:    iput-wide p1, p0, Lcom/vungle/warren/CacheBustManager;->overrideRefreshRate:J 
+147:    iput-wide p1, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J 
+160:    iget-wide v0, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J 
+179:    iget-wide v4, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J 
+190:    iget-wide v6, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J 
+207:    iget-wide v5, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J 
+218:    iget-wide v5, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J 
+249:.method public setRefreshRate(J)V 
+253:    iget-wide v0, p0, Lcom/vungle/warren/CacheBustManager;->overrideRefreshRate:J 
+262:    iput-wide v0, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J 
+282:    iget-wide p1, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J 
+289:    iput-wide v0, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J 
+343:    iget-wide v0, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J 
+371:    iget-wide v2, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J 
+382:    iget-wide v4, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J 
+397:    iget-wide v3, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J 
+441:    iget-wide v0, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J 
+458:    iget-wide v2, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J 
+94:    const-string v0, "vsyncDelayTime" 

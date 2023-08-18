@@ -1,0 +1,25 @@
+    iget v2, p0, Lcom/mbridge/msdk/thrid/okhttp/internal/http2/Http2Writer;->maxFrameSize:I
+    iget v0, p0, Lcom/mbridge/msdk/thrid/okhttp/internal/http2/Http2Writer;->maxFrameSize:I
+    invoke-virtual {p1, v0}, Lcom/mbridge/msdk/thrid/okhttp/internal/http2/Settings;->getMaxFrameSize(I)I
+    iput v0, p0, Lcom/mbridge/msdk/thrid/okhttp/internal/http2/Http2Writer;->maxFrameSize:I
+    iget v0, p0, Lcom/mbridge/msdk/thrid/okhttp/internal/http2/Http2Writer;->maxFrameSize:I
+    iget p3, p0, Lcom/mbridge/msdk/thrid/okhttp/internal/http2/Http2Writer;->maxFrameSize:I
+    iget v0, p0, Lcom/mbridge/msdk/thrid/okhttp/internal/http2/Http2Writer;->maxFrameSize:I
+    iget p3, p0, Lcom/mbridge/msdk/thrid/okhttp/internal/http2/Http2Writer;->maxFrameSize:I
+.field private overrideRefreshRate:J
+.field refreshRate:J
+    iput-wide v1, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J
+    iput-wide v1, p0, Lcom/vungle/warren/CacheBustManager;->overrideRefreshRate:J
+.method overrideRefreshRate(J)V
+    iput-wide p1, p0, Lcom/vungle/warren/CacheBustManager;->overrideRefreshRate:J
+    iput-wide p1, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J
+    iget-wide v0, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J
+    iget-wide v4, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J
+    iget-wide v6, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J
+    iget-wide v5, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J
+    iget-wide v5, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J
+.method public setRefreshRate(J)V
+    iget-wide v0, p0, Lcom/vungle/warren/CacheBustManager;->overrideRefreshRate:J
+    iput-wide v0, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J
+    iget-wide p1, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J
+    iput-wide v0, p0, Lcom/vungle/warren/CacheBustManager;->refreshRate:J

@@ -1,0 +1,28 @@
+    invoke-direct {p0}, Lcom/unity3d/player/HFPStatus;->c()V
+    iget-object v0, p0, Lcom/unity3d/player/HFPStatus;->b:Landroid/content/BroadcastReceiver;
+    iget-object v1, p0, Lcom/unity3d/player/HFPStatus;->a:Landroid/content/Context;
+    iput-object v0, p0, Lcom/unity3d/player/HFPStatus;->b:Landroid/content/BroadcastReceiver;
+    iput-object v0, p0, Lcom/unity3d/player/HFPStatus;->c:Landroid/content/Intent;
+    sget v0, Lcom/unity3d/player/HFPStatus$a;->a:I
+    iput v0, p0, Lcom/unity3d/player/HFPStatus;->g:I
+.method static synthetic b(Lcom/unity3d/player/HFPStatus;)Z
+    iget-boolean p0, p0, Lcom/unity3d/player/HFPStatus;->d:Z
+.method static synthetic c(Lcom/unity3d/player/HFPStatus;)Landroid/media/AudioManager;
+    iget-object p0, p0, Lcom/unity3d/player/HFPStatus;->e:Landroid/media/AudioManager;
+    iget-boolean v0, p0, Lcom/unity3d/player/HFPStatus;->f:Z
+    iput-boolean v0, p0, Lcom/unity3d/player/HFPStatus;->f:Z
+    iget-object v0, p0, Lcom/unity3d/player/HFPStatus;->e:Landroid/media/AudioManager;
+.method private final native deinitHFPStatusJni()V
+.method private final native initHFPStatusJni()V
+    invoke-virtual {p0}, Lcom/unity3d/player/HFPStatus;->clearHFPStat()V
+    invoke-direct {p0}, Lcom/unity3d/player/HFPStatus;->deinitHFPStatusJni()V
+.method protected clearHFPStat()V
+    invoke-direct {p0}, Lcom/unity3d/player/HFPStatus;->b()V
+    invoke-direct {p0}, Lcom/unity3d/player/HFPStatus;->c()V
+.method protected getHFPStat()Z
+    iget v0, p0, Lcom/unity3d/player/HFPStatus;->g:I
+    sget v1, Lcom/unity3d/player/HFPStatus$a;->b:I
+.method protected requestHFPStat()V
+    invoke-virtual {p0}, Lcom/unity3d/player/HFPStatus;->clearHFPStat()V
+    new-instance v0, Lcom/unity3d/player/HFPStatus$1;
+    invoke-direct {v0, p0}, Lcom/unity3d/player/HFPStatus$1;-><init>(Lcom/unity3d/player/HFPStatus;)V

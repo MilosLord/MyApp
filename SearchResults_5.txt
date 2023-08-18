@@ -1,0 +1,25 @@
+    invoke-static {p1, p2}, Lcom/unity3d/player/HFPStatus;->a(Lcom/unity3d/player/HFPStatus;I)I
+    iget-object p1, p0, Lcom/unity3d/player/HFPStatus$1;->a:Lcom/unity3d/player/HFPStatus;
+    invoke-static {p1}, Lcom/unity3d/player/HFPStatus;->a(Lcom/unity3d/player/HFPStatus;)V
+    iget-object p1, p0, Lcom/unity3d/player/HFPStatus$1;->a:Lcom/unity3d/player/HFPStatus;
+    invoke-static {p1}, Lcom/unity3d/player/HFPStatus;->b(Lcom/unity3d/player/HFPStatus;)Z
+    iget-object p1, p0, Lcom/unity3d/player/HFPStatus$1;->a:Lcom/unity3d/player/HFPStatus;
+    invoke-static {p1}, Lcom/unity3d/player/HFPStatus;->c(Lcom/unity3d/player/HFPStatus;)Landroid/media/AudioManager;
+.class final Lcom/unity3d/player/HFPStatus$a;
+    value = Lcom/unity3d/player/HFPStatus;
+    sput-object v1, Lcom/unity3d/player/HFPStatus$a;->c:[I
+.class public Lcom/unity3d/player/HFPStatus;
+        Lcom/unity3d/player/HFPStatus$a;
+    iput-object v0, p0, Lcom/unity3d/player/HFPStatus;->b:Landroid/content/BroadcastReceiver;
+    iput-object v0, p0, Lcom/unity3d/player/HFPStatus;->c:Landroid/content/Intent;
+    iput-boolean v1, p0, Lcom/unity3d/player/HFPStatus;->d:Z
+    iput-object v0, p0, Lcom/unity3d/player/HFPStatus;->e:Landroid/media/AudioManager;
+    iput-boolean v1, p0, Lcom/unity3d/player/HFPStatus;->f:Z
+    sget v0, Lcom/unity3d/player/HFPStatus$a;->a:I
+    iput v0, p0, Lcom/unity3d/player/HFPStatus;->g:I
+    iput-object p1, p0, Lcom/unity3d/player/HFPStatus;->a:Landroid/content/Context;
+    iput-object p1, p0, Lcom/unity3d/player/HFPStatus;->e:Landroid/media/AudioManager;
+    invoke-direct {p0}, Lcom/unity3d/player/HFPStatus;->initHFPStatusJni()V
+.method static synthetic a(Lcom/unity3d/player/HFPStatus;I)I
+    iput p1, p0, Lcom/unity3d/player/HFPStatus;->g:I
+.method static synthetic a(Lcom/unity3d/player/HFPStatus;)V

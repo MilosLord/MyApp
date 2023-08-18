@@ -1,0 +1,25 @@
+    const-string v0, "OfpsRfCrHKp957e6"
+    .local v0, "frameRateCodeMinusOne":I
+    .local v2, "frameRate":D
+    .local v0, "frameRateExtensionN":I
+    .end local v0    # "frameRateExtensionN":I
+    .restart local v0    # "frameRateExtensionN":I
+    .end local v0    # "frameRateExtensionN":I
+    .local v1, "frameRateExtensionD":I
+    .end local v1    # "frameRateExtensionD":I
+    .end local v2    # "frameRate":D
+    .local v16, "frameRateExtensionN":I
+    .restart local v16    # "frameRateExtensionN":I
+    .local p0, "avSyncHeaderBytesRemaining":I
+    const-string v3, "frameRate"
+.field private avSyncHeader:Ljava/nio/ByteBuffer;
+.field private bytesUntilNextAvSync:I
+    invoke-direct/range {v6 .. v11}, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->writeNonBlockingWithAvSyncV21(Landroid/media/AudioTrack;Ljava/nio/ByteBuffer;IJ)I
+.method private writeNonBlockingWithAvSyncV21(Landroid/media/AudioTrack;Ljava/nio/ByteBuffer;IJ)I
+    iget-object v0, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->avSyncHeader:Ljava/nio/ByteBuffer;
+    iput-object v0, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->avSyncHeader:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->avSyncHeader:Ljava/nio/ByteBuffer;
+    iget v0, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->bytesUntilNextAvSync:I
+    iget-object v0, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->avSyncHeader:Ljava/nio/ByteBuffer;
+    iget-object v0, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->avSyncHeader:Ljava/nio/ByteBuffer;
+    iget-object p4, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/audio/DefaultAudioSink;->avSyncHeader:Ljava/nio/ByteBuffer;

@@ -1,0 +1,22 @@
+    iput-object v0, p0, Lcom/unity3d/player/HFPStatus;->b:Landroid/content/BroadcastReceiver;
+    iget-object v1, p0, Lcom/unity3d/player/HFPStatus;->a:Landroid/content/Context;
+    iput-object v0, p0, Lcom/unity3d/player/HFPStatus;->c:Landroid/content/Intent;
+    iput-boolean v0, p0, Lcom/unity3d/player/HFPStatus;->f:Z
+    iget-object v0, p0, Lcom/unity3d/player/HFPStatus;->e:Landroid/media/AudioManager;
+    iput-boolean p1, p0, Lcom/unity3d/player/HFPStatus;->d:Z
+    iget-object p1, p0, Lcom/unity3d/player/HFPStatus;->e:Landroid/media/AudioManager;
+.field private m_HFPStatus:Lcom/unity3d/player/HFPStatus;
+    iput-object v2, p0, Lcom/unity3d/player/UnityPlayer;->m_HFPStatus:Lcom/unity3d/player/HFPStatus;
+    new-instance p1, Lcom/unity3d/player/HFPStatus;
+    invoke-direct {p1, p2}, Lcom/unity3d/player/HFPStatus;-><init>(Landroid/content/Context;)V
+    iput-object p1, p0, Lcom/unity3d/player/UnityPlayer;->m_HFPStatus:Lcom/unity3d/player/HFPStatus;
+    iget-object v0, p0, Lcom/unity3d/player/UnityPlayer;->m_HFPStatus:Lcom/unity3d/player/HFPStatus;
+    invoke-virtual {v0}, Lcom/unity3d/player/HFPStatus;->a()V
+    iput-object v1, p0, Lcom/unity3d/player/UnityPlayer;->m_HFPStatus:Lcom/unity3d/player/HFPStatus;
+.field private refreshRate:J
+    iput-wide v1, p0, Lcom/unity3d/services/banners/UnityBanners$BannerAdRefreshView;->refreshRate:J
+    iget-wide v3, p0, Lcom/unity3d/services/banners/UnityBanners$BannerAdRefreshView;->refreshRate:J
+    invoke-virtual {v0, v1}, Lcom/unity3d/services/banners/properties/BannerRefreshInfo;->getRefreshRate(Ljava/lang/String;)Ljava/lang/Integer;
+    iput-wide v0, p0, Lcom/unity3d/services/banners/UnityBanners$BannerAdRefreshView;->refreshRate:J
+.field private mLastFps:F
+    iput v0, p0, Landroidx/constraintlayout/motion/widget/MotionLayout;->mLastFps:F

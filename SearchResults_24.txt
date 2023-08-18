@@ -1,0 +1,21 @@
+    iget v1, p0, Lcom/google/android/gms/internal/ads/zzfps;->zza:I
+    iget-object v2, p0, Lcom/google/android/gms/internal/ads/zzfps;->zzb:Ljava/lang/String;
+    new-instance v0, Lcom/google/android/gms/internal/ads/zzfps;
+    invoke-direct {v0}, Lcom/google/android/gms/internal/ads/zzfps;-><init>()V
+    invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/ads/zzfps;->zzb(I)Lcom/google/android/gms/internal/ads/zzfql;
+.field private static final MAX_FPS:I = 0x14
+.field private static final MIN_FPS:I = 0xa
+.method public static setBestPreviewFPS(Landroid/hardware/Camera$Parameters;)V
+    invoke-static {p0, v0, v1}, Lcom/google/zxing/client/android/camera/CameraConfigurationUtils;->setBestPreviewFPS(Landroid/hardware/Camera$Parameters;II)V
+.method public static setBestPreviewFPS(Landroid/hardware/Camera$Parameters;II)V
+    invoke-virtual {p0}, Landroid/hardware/Camera$Parameters;->getSupportedPreviewFpsRange()Ljava/util/List;
+    const-string v2, "Supported FPS ranges: "
+    const-string p0, "No suitable FPS range?"
+    invoke-virtual {p0, p1}, Landroid/hardware/Camera$Parameters;->getPreviewFpsRange([I)V
+    const-string p1, "FPS range already set to "
+    const-string p2, "Setting FPS range to "
+    invoke-virtual {p0, p1, p2}, Landroid/hardware/Camera$Parameters;->setPreviewFpsRange(II)V
+.field public final maxFrameSize:I
+    iput p4, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/util/FlacStreamInfo;->maxFrameSize:I
+    iput p1, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/util/FlacStreamInfo;->maxFrameSize:I
+    iget v0, p0, Lcom/mbridge/msdk/playercommon/exoplayer2/util/FlacStreamInfo;->maxFrameSize:I

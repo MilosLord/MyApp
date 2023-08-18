@@ -1,0 +1,22 @@
+    iget v2, p0, Lcom/spaceapegames/utils/AndroidSetDisplayRefreshRate$1SetDisplayModeRunnable;->modeId:I
+.class public Lcom/spaceapegames/utils/AndroidSetDisplayRefreshRate;
+.source "AndroidSetDisplayRefreshRate.java"
+.method public static GetDisplayRefreshRate()F
+    invoke-virtual {v0}, Landroid/view/Display;->getRefreshRate()F
+    new-instance v1, Lcom/spaceapegames/utils/AndroidSetDisplayRefreshRate$1SetDisplayModeRunnable;
+    invoke-direct {v1, p0}, Lcom/spaceapegames/utils/AndroidSetDisplayRefreshRate$1SetDisplayModeRunnable;-><init>(I)V
+.method public static SetToPreferredRefreshRate(F)F
+    invoke-virtual {v0}, Landroid/view/Display$Mode;->getRefreshRate()F
+    invoke-virtual {v7}, Landroid/view/Display$Mode;->getRefreshRate()F
+    invoke-static {p0}, Lcom/spaceapegames/utils/AndroidSetDisplayRefreshRate;->SetToPreferredRefreshModeId(I)V
+.field private _refreshRateMap:Ljava/util/HashMap;
+    iput-object v0, p0, Lcom/unity3d/services/banners/properties/BannerRefreshInfo;->_refreshRateMap:Ljava/util/HashMap;
+.method public declared-synchronized getRefreshRate(Ljava/lang/String;)Ljava/lang/Integer;
+    iget-object v0, p0, Lcom/unity3d/services/banners/properties/BannerRefreshInfo;->_refreshRateMap:Ljava/util/HashMap;
+.method public declared-synchronized setRefreshRate(Ljava/lang/String;Ljava/lang/Integer;)V
+    iget-object v0, p0, Lcom/unity3d/services/banners/properties/BannerRefreshInfo;->_refreshRateMap:Ljava/util/HashMap;
+.class final Lcom/google/android/gms/internal/ads/zzfps;
+    iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzfps;->zzb:Ljava/lang/String;
+    iput p1, p0, Lcom/google/android/gms/internal/ads/zzfps;->zza:I
+    iput-byte p1, p0, Lcom/google/android/gms/internal/ads/zzfps;->zzc:B
+    iget-byte v0, p0, Lcom/google/android/gms/internal/ads/zzfps;->zzc:B
