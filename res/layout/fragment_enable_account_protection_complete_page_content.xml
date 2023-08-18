@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/titleTextView" style="@style/SupercellIdFlowPageTitle" textKey="enable_account_protection_complete_heading" />
+    <TextView android:id="@id/subtitleTextView" style="@style/SupercellIdFlowPageSubtitle" />
+    <FrameLayout style="@style/SupercellIdFlowPageButtonContainer">
+        <Button android:layout_gravity="center_horizontal" android:id="@id/positive_button" android:layout_width="wrap_content" android:minWidth="160.0dip" style="@style/SupercellIdButtonPrimary" textKey="enable_account_protection_complete_btn_ok" />
+    </FrameLayout>
+</merge>

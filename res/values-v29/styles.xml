@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SupercellIdBottomSheetDialogTheme" parent="@style/SupercellIdBottomSheetDialogThemeBase">
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="SupercellIdNonModalDialog" parent="@style/SupercellIdNonModalDialogBase">
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="SupercellIdPopupDialogTheme" parent="@style/SupercellIdPopupDialogThemeBase">
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+    <style name="SupercellIdTheme" parent="@style/SupercellIdThemeBase">
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+</resources>

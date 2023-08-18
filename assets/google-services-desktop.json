@@ -1,0 +1,204 @@
+{
+  "project_info": {
+    "project_number": "315493460652",
+    "firebase_url": "https://flamingo-38f5f.firebaseio.com",
+    "project_id": "flamingo-38f5f",
+    "storage_bucket": "flamingo-38f5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315493460652:android:f23072ba471439f36e0d09",
+        "android_client_info": {
+          "package_name": "com.spaceapegames.beatstar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315493460652-cbgqmk6gqm7riei8punnsbq4gd300tmc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.spaceapegames.beatstar",
+            "certificate_hash": "481a4e899fea8bf2c37b4b98766c18d585341570"
+          }
+        },
+        {
+          "client_id": "315493460652-gr8jci7etq0joa8ach5opc68ra06aq8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjSNoegfIMr1NLa7VlNDeCk11u3sjqN2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315493460652-gr8jci7etq0joa8ach5opc68ra06aq8b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "315493460652-vdt5gfgpdcthrpcmv0o5mlphhql5n3pj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.spaceapegames.beatstar",
+                "app_store_id": "1521483641"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315493460652:android:65726ecd9b8931a36e0d09",
+        "android_client_info": {
+          "package_name": "com.spaceapegames.flamingo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315493460652-gr8jci7etq0joa8ach5opc68ra06aq8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjSNoegfIMr1NLa7VlNDeCk11u3sjqN2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315493460652-gr8jci7etq0joa8ach5opc68ra06aq8b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "315493460652-vdt5gfgpdcthrpcmv0o5mlphhql5n3pj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.spaceapegames.beatstar",
+                "app_store_id": "1521483641"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315493460652:android:23e7641bdfcdd2b06e0d09",
+        "android_client_info": {
+          "package_name": "com.spaceapegames.unicorn.dancewars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315493460652-gr8jci7etq0joa8ach5opc68ra06aq8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjSNoegfIMr1NLa7VlNDeCk11u3sjqN2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315493460652-gr8jci7etq0joa8ach5opc68ra06aq8b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "315493460652-vdt5gfgpdcthrpcmv0o5mlphhql5n3pj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.spaceapegames.beatstar",
+                "app_store_id": "1521483641"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315493460652:android:b8e378653bb877696e0d09",
+        "android_client_info": {
+          "package_name": "com.spaceapegames.unicorn.dancewars.prototype"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315493460652-gr8jci7etq0joa8ach5opc68ra06aq8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjSNoegfIMr1NLa7VlNDeCk11u3sjqN2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315493460652-gr8jci7etq0joa8ach5opc68ra06aq8b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "315493460652-vdt5gfgpdcthrpcmv0o5mlphhql5n3pj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.spaceapegames.beatstar",
+                "app_store_id": "1521483641"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315493460652:android:b4075605028243636e0d09",
+        "android_client_info": {
+          "package_name": "com.spaceapegames.unicorn.dancewars.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315493460652-gr8jci7etq0joa8ach5opc68ra06aq8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjSNoegfIMr1NLa7VlNDeCk11u3sjqN2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315493460652-gr8jci7etq0joa8ach5opc68ra06aq8b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "315493460652-vdt5gfgpdcthrpcmv0o5mlphhql5n3pj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.spaceapegames.beatstar",
+                "app_store_id": "1521483641"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

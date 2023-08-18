@@ -1,0 +1,820 @@
+!!brut.androlib.apk.ApkInfo
+apkFileName: beatstar.apk
+doNotCompress:
+- resources.arsc
+- META-INF/androidx.activity_activity-ktx.version
+- META-INF/androidx.activity_activity.version
+- META-INF/androidx.annotation_annotation-experimental.version
+- META-INF/androidx.appcompat_appcompat-resources.version
+- META-INF/androidx.appcompat_appcompat.version
+- META-INF/androidx.arch.core_core-runtime.version
+- META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version
+- META-INF/androidx.browser_browser.version
+- META-INF/androidx.cardview_cardview.version
+- META-INF/androidx.coordinatorlayout_coordinatorlayout.version
+- META-INF/androidx.core_core-ktx.version
+- META-INF/androidx.core_core.version
+- META-INF/androidx.cursoradapter_cursoradapter.version
+- META-INF/androidx.customview_customview.version
+- META-INF/androidx.databinding_viewbinding.version
+- META-INF/androidx.documentfile_documentfile.version
+- META-INF/androidx.drawerlayout_drawerlayout.version
+- META-INF/androidx.dynamicanimation_dynamicanimation.version
+- META-INF/androidx.fragment_fragment-ktx.version
+- META-INF/androidx.fragment_fragment.version
+- META-INF/androidx.interpolator_interpolator.version
+- META-INF/androidx.legacy_legacy-support-core-ui.version
+- META-INF/androidx.legacy_legacy-support-core-utils.version
+- META-INF/androidx.legacy_legacy-support-v4.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-core.version
+- META-INF/androidx.lifecycle_lifecycle-livedata.version
+- META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-runtime.version
+- META-INF/androidx.lifecycle_lifecycle-service.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel.version
+- META-INF/androidx.loader_loader.version
+- META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version
+- META-INF/androidx.media_media.version
+- META-INF/androidx.print_print.version
+- META-INF/androidx.recyclerview_recyclerview.version
+- META-INF/androidx.room_room-runtime.version
+- META-INF/androidx.savedstate_savedstate.version
+- META-INF/androidx.security_security-crypto.version
+- META-INF/androidx.slidingpanelayout_slidingpanelayout.version
+- META-INF/androidx.sqlite_sqlite-framework.version
+- META-INF/androidx.sqlite_sqlite.version
+- META-INF/androidx.startup_startup-runtime.version
+- META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version
+- META-INF/androidx.tracing_tracing.version
+- META-INF/androidx.transition_transition.version
+- META-INF/androidx.vectordrawable_vectordrawable-animated.version
+- META-INF/androidx.vectordrawable_vectordrawable.version
+- META-INF/androidx.versionedparcelable_versionedparcelable.version
+- META-INF/androidx.viewpager2_viewpager2.version
+- META-INF/androidx.viewpager_viewpager.version
+- META-INF/androidx.webkit_webkit.version
+- META-INF/androidx.work_work-runtime.version
+- META-INF/com.android.games.engine.build_fingerprint
+- META-INF/com.google.android.material_material.version
+- assets/desc.txt
+- assets/dynamic_default.json
+- assets/features_config.json
+- assets/google-services-desktop.json
+- assets/ia_js_load_monitor.txt
+- assets/ia_mraid_bridge.txt
+- assets/supplierconfig.json
+- assets/AssetBundles/00a1700dc39e240438d129b41977fcfc_5e78baffe54f856d9469cb948b65bb322555340089.bundle
+- assets/AssetBundles/0620f9ad4f820a4438d8ab6921451d96_0120ab0e55ee5474566ec069c3a3267e281507604.bundle
+- assets/AssetBundles/0719819464d774cb1a0efac21851a312_bc285b052e4584eaa430414616ee88801181954819.bundle
+- assets/AssetBundles/082b7079750e04af2aa869acbc76faad_bcf4a82028ce36a1d4df5e8b77ac1bc41540392810.bundle
+- assets/AssetBundles/09879f89bec234581ab6bf4f534b3fd5_d74ae2f6abf8f4f039a15fb144845c6e4045087016.bundle
+- assets/AssetBundles/09dfa2165cd814cbe951ded6b773ad1f_26aaa11fdd925e04f3e3a6fd114e2c00442892241.bundle
+- assets/AssetBundles/0a764e83000b94f2ca83db610d8d953c_672694f68f3641f937781fc51bfe2e383843145532.bundle
+- assets/AssetBundles/0b1d6267c82ce4020b44145eb13ae257_9e91732702536610ee6cc2a3f7684b7a2863287142.bundle
+- assets/AssetBundles/0b6e3e48b138f4dd1bbd18ab298bf52c_c8ec10d66f9d243149b0b40a848899992839007228.bundle
+- assets/AssetBundles/0c5fbf33001cf4ddd82be96ff0a154eb_4cf22377513fcff640ab4dabf82018ab3926846588.bundle
+- assets/AssetBundles/0db2525d863d34c7ead654cc0a24002f_0990dfd3b4989572e9294819aa36f33b3996922655.bundle
+- assets/AssetBundles/124b60ead74c44cca950232c053fcdee_b2d8b0f3d0f59a09d54a22351d696d5a3637541746.bundle
+- assets/AssetBundles/136691850fcb84122b08988b2ae3d7fe_c90c01de4f05fe1a4ff55677a58512013865545053.bundle
+- assets/AssetBundles/1806472a877914b0985937d59ddd1a05_3d36ae28cb2a3d8b7e32804dba12791e1661614375.bundle
+- assets/AssetBundles/1b63516a860fa4bdabf87d9a808d158a_1e983223b5ad226a94d6a2a75c9e52e12136914396.bundle
+- assets/AssetBundles/1e1287911c9534fe9b130ba1aaa580a3_0f5a57661696b226240d99933b033ac52535865948.bundle
+- assets/AssetBundles/24d973775b4d5484688fa23b95a3b3a5_32e58bf858f658ad03e316db981a3cfb818321660.bundle
+- assets/AssetBundles/270cef86d2e3f4524a6b6f6fbb4a7ecf_49454023f02b4b40c6eb1cbc0c69dd10203805210.bundle
+- assets/AssetBundles/27dc5ef2e2698477f995b36aeb1932ec_499cd344dbd2e997358fa286aa30735a2607030085.bundle
+- assets/AssetBundles/2baf741cc227f0843939d33ae4ed76d7_ce0f6a00fb660710bf23a8702545842a717198285.bundle
+- assets/AssetBundles/301f972541906454db149b51279d9da9_7e9d08265a1a502f4b2d861f8d996f6a4139548314.bundle
+- assets/AssetBundles/30d05b9db1e3a4526b46637df8d46e10_0831668fa54ad18b63109ecc0f77fc151735070332.bundle
+- assets/AssetBundles/317c6e820ceca1a4fa0f1db3b26da33d_7280dd8bce67dad02ee906b54ab51824135556556.bundle
+- assets/AssetBundles/3196b3a9a1ced494481c9a0610ac57d5_c56f3fda91996e2d388734023d73cd4c373788231.bundle
+- assets/AssetBundles/3296cf8652c644c5bb43f8247e120ac4_fd9d233ca3685014f548375ac7542e8f3567696562.bundle
+- assets/AssetBundles/33dec3793c9f34fbc8ba034945f0e852_bf384a858ef6d77476c75b3a392297d23118420080.bundle
+- assets/AssetBundles/36926d766954a40ed95b31dbcee6ffbe_b69c896cb6ff55e07e700b90e1e2125a3273523212.bundle
+- assets/AssetBundles/39cf5b304affe47c7ad8e5fe2add65ac_24c6c60fa74231e3acb5f81ecca351b03906382182.bundle
+- assets/AssetBundles/3a09ebfd96a364edf8e29b8b27d6152e_50f2d812fae070c711d0eaeaf2cc56b2704444609.bundle
+- assets/AssetBundles/3a34fa9a854f8b04e84aa929887ceb18_755725fa05b2c548a430002f30f0067e1243909593.bundle
+- assets/AssetBundles/3c978b8e287b244079dea18ba15ebfdd_a890464659c31695ac7336aea55a807e3799778418.bundle
+- assets/AssetBundles/3cd6dc525a652e44197fa88164f2733c_e5ee2b664dc17152a7129b1aa85eb27c436349177.bundle
+- assets/AssetBundles/3f77ab6deddb34f0e91e2a2a5db6b143_72a842a1bdb355f4212f36f476c360c02556594417.bundle
+- assets/AssetBundles/403effc3bf40245ef8d757eec7c4d497_433f48e61c30c8ff38b792f304423c342750374923.bundle
+- assets/AssetBundles/44624b9d4390c4d4f9be4d9af18b8955_ff33f58085ebebd62895acee6e2dbedd1056471925.bundle
+- assets/AssetBundles/453edb76e6531444b90e2677c0248f6d_b67872840b70edf54f1a0d78c9e008b83781283252.bundle
+- assets/AssetBundles/460f41ceaa89c432aa0684255bfc80aa_1614d1d518a6f935a8eb54ed92a454f62200995268.bundle
+- assets/AssetBundles/4a08ccf2bf4ef4b25ac3308daccaf4c4_6b179c3eced18363244643bc75845aec1538406778.bundle
+- assets/AssetBundles/4a7dad99da7f964408e36d33783dc34f_2aeeb5cdc317fdf18059d699e247c08d4180455876.bundle
+- assets/AssetBundles/4d697e9851839b44db9352a659c89b7b_e1352e3efd1098d5ed039cf6a8eaff6e1846913643.bundle
+- assets/AssetBundles/4f617978ae77c3c4db61e7b739a78805_c5b8086d427b1e6449e26aed3bee359e3172472963.bundle
+- assets/AssetBundles/5055d52497cff40abb08a16b960a09bb_4748683b62eeedfd9fbf9f81f093e2993850449052.bundle
+- assets/AssetBundles/53365be41f34249d69ad80fa4577be94_1a30e76bc0ca3b9d57cd163d56579f24892210093.bundle
+- assets/AssetBundles/543f01022ead74afa9a94d8d9c8504ff_862bfc9d98dee4b88074ca05d8c01c161827348397.bundle
+- assets/AssetBundles/5607945669e493e49bcb5411d0cb1bb1_92034910e84b2427d459147f53ba52552460660836.bundle
+- assets/AssetBundles/58a41c93314284891950512dda54a23b_5a2ec0abc86b65f113ec492f511a7ada2094562616.bundle
+- assets/AssetBundles/58a546d8f9ae7a143a0c9baba24d3e4b_d021be6970f66816c2cb8ea532237937438191570.bundle
+- assets/AssetBundles/5ed577bf8dc9e4734bdc9f61dba2ee83_d6e95727124398051b542578f960593f1003136060.bundle
+- assets/AssetBundles/5fb2bf04569a240ba8e02dc211b177e1_61a71db266fd5e794adb60b564a3ad3d1079131999.bundle
+- assets/AssetBundles/60eb5e3216d6d4b1596d5d8c7657f8ba_75b31fe56af4d595e1673c752a1fcc9b2531922496.bundle
+- assets/AssetBundles/61d8ee9dc3556414c89313b4b53078af_43ff275eb8a0bfa949d3bd0a2547236a2977653474.bundle
+- assets/AssetBundles/620f7668610e446759e9c1860a059535_1e4045204a02a25b77a3229aee12aed72693539684.bundle
+- assets/AssetBundles/63a665c73f45e4e2e8f19364481ac485_29003c64cca21d288afbf85b032fe4334151445126.bundle
+- assets/AssetBundles/64bcfaa565567e8409a2769db2cfecc7_80de514fb51d948419698da85e0310673157644069.bundle
+- assets/AssetBundles/659b7eca407ed496c9a978892f1fc746_ed09737ffa0ed62c6b41e235dde85ae92475303388.bundle
+- assets/AssetBundles/68e6db2ebdc24f95958faec2be5558d6_c06c82b7853702a9281b570c54ab54341674135277.bundle
+- assets/AssetBundles/694e46c7a30d24a238f8de88e5662f9f_3275039a65ffc3777ef1eb5dbd028d233503829445.bundle
+- assets/AssetBundles/6b8738f01b4864fc4988ff14d31dc877_c92eded826aaea516e7dcd68c36b867f3840223787.bundle
+- assets/AssetBundles/6d0b44b7bb1254e758cb4b72e77f4693_2b408298f87114249e8700012d7d1be51989998761.bundle
+- assets/AssetBundles/6ec50c6ba941041abb394e6420b97b0e_6eba571239f198f23de603430d4b00471845516688.bundle
+- assets/AssetBundles/70bce25df415f48999309b4118db4072_21c5e5493530307549a9c3e47e29c6192394044731.bundle
+- assets/AssetBundles/71ddb79b562c83f4cab51286ee48edd3_8b57b45d2ba2efc92cb98e69e7ff3da43938500507.bundle
+- assets/AssetBundles/73918716a8cf2485bb25af44243d6302_1b57cb9364da9be63a7ae4409a793b891496566280.bundle
+- assets/AssetBundles/7683d374bf6994650ae292eabb2e0cbd_9dda4a63f02c91ee12856e8a45907a0f3937048448.bundle
+- assets/AssetBundles/77792516a03194bf68e1d3e8343f7bc6_d5c386789bd1e20ab6623e85840b750b1616206593.bundle
+- assets/AssetBundles/7837dd7530a5e410e8a70899fe2da53d_ea4a7e98a9cc0d4ed115f8081b0593682990867252.bundle
+- assets/AssetBundles/78ee8a5c4c1cf404ea0f0a8d6ec024bb_624e4714fca83f7e3ae6ff8648fef1db1641012882.bundle
+- assets/AssetBundles/7e1f65398aeb942aaaaadc508aae285a_780bcb88f3bba566ba04463deac83517509198081.bundle
+- assets/AssetBundles/80ce82800fab648139310b2a98231345_cbbd0c101a6904a6bd3e521790109291658700221.bundle
+- assets/AssetBundles/81866fc5d517844389050933f86e9c7c_48e529e31ffebc7346ded042b88d2c203666707013.bundle
+- assets/AssetBundles/8211fcb0460834b02b9f39fc5abb1213_ea2e8e5300dbcad9ee1ff62ce6829a7b438673707.bundle
+- assets/AssetBundles/84a6ad3f5e4cc4d93aca54ee672f4de3_d7f4d1f4806629a764a2487247e15664694497451.bundle
+- assets/AssetBundles/878be87b6cbb9714fa1243b73b3687cd_3de29beefc9b3d11d2de9aed3a5060484081797454.bundle
+- assets/AssetBundles/8b8ce3623b30f26498ea7d9877ec3757_e5584ea9e95497b51c75aa4fb17860722538075263.bundle
+- assets/AssetBundles/8db3d84a8a1d94e04a33a203085572fd_3d6402c43d688df57cb962467c50bfd42924857147.bundle
+- assets/AssetBundles/8db8ba42b001f4ff3b6ccaa434620de1_816c4a42d2c07d32700245e0bd6d929b2909709961.bundle
+- assets/AssetBundles/90363bdfaf69f47ec9072a4c99a8f299_82245c66e0dc0ff53ebb0977410dd8102424607786.bundle
+- assets/AssetBundles/91d8469f4dad549ac9b259ba10f6ab6f_3a7e2085d02ac49937d1d9ded0e6c2a63006968301.bundle
+- assets/AssetBundles/928923fdfb7ac4514a14c824948789f6_f16f18c07ef460fc73b17b16e6eea8121465396360.bundle
+- assets/AssetBundles/950324fd0c8b444008491334863456a5_a5238466fe34ade78df9cb7bf59371fc2005172799.bundle
+- assets/AssetBundles/955c31fb5d44a412994f93e09e7c1062_895d353caed85ed8dfbf53fada0caea31179272705.bundle
+- assets/AssetBundles/967bfa711c357405dbfb87da67855895_e2f80db81403cd65178e07ea2668ac972680654000.bundle
+- assets/AssetBundles/984f2106ee8b3ae4fa0770e0392d6491_11d3c2f4626d3c8af12f97752a0729e61023703289.bundle
+- assets/AssetBundles/98a621c14446f492b8951e74ce4cbf51_6a0b27054e93fd4f1e171459fbfeaab81385660899.bundle
+- assets/AssetBundles/98bf12e2603be45a0a1858fb10474456_ee361529b62dcb3b8c8600e42064de2b4010380065.bundle
+- assets/AssetBundles/997f2857ffadf4cf08a1a33dbbbc26a9_4752101a9067da0e1172d06dd5f749522308358372.bundle
+- assets/AssetBundles/9d38aa9aba8e54bbc9d9f8db2fbf45ad_066c18ac10239a59205b1035ab9c23901803006533.bundle
+- assets/AssetBundles/9d439a4e33df146cc9565df3224b5231_5f51906811a720e0ea9933d1f69d6d601532907625.bundle
+- assets/AssetBundles/9dc40a74d61364ca9813face7e4d3e4e_0afdcd6548e1296c7242fa0e370242962749162296.bundle
+- assets/AssetBundles/a0adb540c205243dbac5ccd77db01327_5ad3cc92212cb84c3adca2ccc4984e2a1590788294.bundle
+- assets/AssetBundles/a1004007ab0694cd5a43e197e83cf39b_c00147f96319c80a71a1066633a5fd3b3560599458.bundle
+- assets/AssetBundles/a36acdcaeaac24750863ba261b6f463c_2fc29092a09260a56d2a53a0c6532f811119876254.bundle
+- assets/AssetBundles/a8faf76f708cf4b4cbc125e24682e6fb_fe0c799444e35ab9d103ef2f1e1633f83660364149.bundle
+- assets/AssetBundles/a9c87d6877e8c4152ab22f255fe34cc5_f3d3c2d9df5e6ba45a038bafaed8ac86996944235.bundle
+- assets/AssetBundles/ae529f47249f2475c81415be8a7245dd_29192d612ddeeff1de442db0a6904822788782538.bundle
+- assets/AssetBundles/b00e32a52803f429f932942c0a4253db_6c16f4ea5be009f3eb621010bf4c367b2585493038.bundle
+- assets/AssetBundles/b09724c8c25db466d82da68a5c7d1c5d_2e505b692300d5fa17173dadac08e8a1895427470.bundle
+- assets/AssetBundles/b1fcfceaae846435cbd67d057abc6f18_bb2bec0e298439bbf3b4897cf31689472063372390.bundle
+- assets/AssetBundles/b2b72a1be27744b1c8434157ec8cff63_9dad12b4b1be4363c406a6f9424a3a8f3281847970.bundle
+- assets/AssetBundles/b2c3f09c9e9d04a8eacaba800f3bce21_c4a767a1c3a67d867adac8a624d3bfe61426336869.bundle
+- assets/AssetBundles/b4b5af8f533be4410b43bfdf5092cdff_c6a1b76446804eabeadef18985ff9fae1256902990.bundle
+- assets/AssetBundles/b8a491fbb57254b10b9cee3d94d4f5a1_ddaabd05d88da6dc57d62a9067ccb6a23991423306.bundle
+- assets/AssetBundles/bfe4fd382a34a43239a8a514fac0ead3_740b51eadc92e3c5bd920cc291b307883566926283.bundle
+- assets/AssetBundles/c1a8c3c212e9a47f997d68ab42cf5672_dbd888680e217e9f681d4368ae1dca5f2066937507.bundle
+- assets/AssetBundles/c2784c03dab9d42d9a59d81c997ee5ac_aecbea15fa2e59333e681064d4b9fac41291822215.bundle
+- assets/AssetBundles/c27c0d413ff7c4fed95b78c33dbbd236_52c79c6c3783d9c4a1ff75604446c4f42825157198.bundle
+- assets/AssetBundles/c2d29ea2b69f34b46bce5cec2118c1d8_62930e19a5eb37f2f130db03be6ac429334417003.bundle
+- assets/AssetBundles/c3116071c446d4420b2da7b198011e7a_948b687aa55211a74d5f93b2607265973299551071.bundle
+- assets/AssetBundles/c35c7893b05564402981979ef3a13d17_e79d3be214628dffe969ef31ae3946cc1983483919.bundle
+- assets/AssetBundles/c3f65b06d6fa446d9823f690f9f2f36e_b90acc76f5cb5d03dd02f68f7dcaf56f275319756.bundle
+- assets/AssetBundles/cb34ecb76b2204df2a8f257ab5664f4e_7d56afdeeab0ec300052cc21dddda71c1083539879.bundle
+- assets/AssetBundles/cdd1e1c9406744ad48cf2c98d1a857b0_9bb0ed19386b2e567f41e73900286c002327194625.bundle
+- assets/AssetBundles/ce6ebb23888fb4e68bd04ba202f534b4_80c2ce4cec557a331afa9824218795143023300291.bundle
+- assets/AssetBundles/cfe78767869d4455fb2d4ea215dac527_9c48dfbd03a44b620cab5ed809a309803748747025.bundle
+- assets/AssetBundles/d447f210e0db0440d9f8b6b73d18a167_fbe483392c112ad071caad1737292d452953944714.bundle
+- assets/AssetBundles/d916147af528b4ae29417f2a7b591376_d8b8994a9916ba5ca194ba61048bb41d3313382082.bundle
+- assets/AssetBundles/d9a73a17969c6c148b66ffc1e5e7dcb0_f9489f0e0ec2d6657cfbfc83b245fc793301902908.bundle
+- assets/AssetBundles/dba3bfc1ca77a83489e3f02e515e8a92_211acbab3b8617b4395b4e8237b57d833058394573.bundle
+- assets/AssetBundles/df026f255c98d473490e38229e12a3f2_325ab4f9c334524ac478797b131ed7e22049061460.bundle
+- assets/AssetBundles/e4582d4e9cae14c63adca83f729ef559_f943a1d8177d46fdd1911744218de112197679774.bundle
+- assets/AssetBundles/e5a3cc94c08bd47d08b916a6d589c5cc_5cd3c198e00e41cd23b37e964d0284d0444830951.bundle
+- assets/AssetBundles/e8a0bc93e098f4350a5f03bc33340149_db2c38a9c56e5ac5c292667bbe9bc8641277168544.bundle
+- assets/AssetBundles/eba8477cf782947418c16f51ee58f418_cfc1e2b4cbe6fd83f52f2f8e085929152740451645.bundle
+- assets/AssetBundles/ed13530a47a434ee482b52406ad57a86_5e765a4181cb8f75a3e9dc492ef465e41920275032.bundle
+- assets/AssetBundles/ed92d184e84d040caaee616d75c9bea7_61129b50920e5ad4022989a74ad297c41845632662.bundle
+- assets/AssetBundles/ee76b2e2d20074c8598036cbdc526205_405a63b2f44d618a983aa8efa091ea663482784782.bundle
+- assets/AssetBundles/ee914765483524a3a9f6c94af4ad0a56_40a899ba07f5a7e196e987f5e66d96344253835940.bundle
+- assets/AssetBundles/f03f54c8efdf74a1799bc0c9f11b2046_b84ccd423b9096af0a67d3317457077e3461382369.bundle
+- assets/AssetBundles/f31ed938f84e64e82b388563a6f0c74f_d26570024457dd2337a9aab2778607b72859025218.bundle
+- assets/AssetBundles/f37d6d7befea94400bec2ccd83fed111_e4feeef4541fad135de7f9322f167b70992698687.bundle
+- assets/AssetBundles/f806b1461daf34628841e053bbcdd913_0ebcb75184b235e56d3b6dc950daad4a888260559.bundle
+- assets/AssetBundles/f856fd16540dd4768a3919243266a773_9b3e9212fb2801298afedcf19ff1c7841858090495.bundle
+- assets/AssetBundles/f8af0eb5255874ad59cb0d3937916c65_e8829903e7ea55ea6edfacf7087ffc184272574006.bundle
+- assets/AssetBundles/fa773497ec57f4312921ccb1e82fd4eb_dce923c9a86f352e14c3215d4ee7557b244113963.bundle
+- assets/AssetBundles/fc0de45aeec8c5946b6192a0e23a2a62_d47ae19563428ccdc7f62faff01e97893921365938.bundle
+- assets/AssetBundles/fd6c09ec732e4434582ddfeddac89ce7_9e1aa970d92572795319e709ebee861c831187783.bundle
+- assets/AssetBundles/fdf0ad279c4a84f799025ad59ef70549_fc0c914c549f14035e4e38555c3096e42958384216.bundle
+- assets/AssetBundles/fe393ace9b354375a9cb14cdbbc28be4_f894919679a8091864b3382612940d552786767603.bundle
+- assets/AssetBundles/ff6e4879c0f2345a4a12610353d2d890_eaff758e58c732cb976b447ab3561e752256157078.bundle
+- assets/AssetBundles/ff7633d1f778e4f05a71403b634908bf_8835fe39804a3c51a7ae1cbef06ef7072379970263.bundle
+- assets/bin/Data/9d07b59dd9c8949178c21d3c59e1f714.resource
+- assets/bin/Data/RuntimeInitializeOnLoads.json
+- assets/bin/Data/ScriptingAssemblies.json
+- assets/bin/Data/unity_app_guid
+- png
+- wav
+- ogg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+resourcesAreCompressed: false
+sdkInfo:
+  minSdkVersion: '23'
+  targetSdkVersion: '33'
+sharedLibrary: false
+sparseResources: true
+unknownFiles:
+  DebugProbesKt.bin: '8'
+  androidsupportmultidexversion.txt: '0'
+  billing.properties: '8'
+  build-data.properties: '8'
+  firebase-analytics.properties: '8'
+  firebase-annotations.properties: '8'
+  firebase-common.properties: '8'
+  firebase-components.properties: '8'
+  firebase-iid-interop.properties: '8'
+  firebase-iid.properties: '8'
+  firebase-installations-interop.properties: '8'
+  firebase-installations.properties: '8'
+  firebase-measurement-connector.properties: '8'
+  firebase-messaging.properties: '8'
+  play-services-ads-base.properties: '8'
+  play-services-ads-identifier.properties: '8'
+  play-services-ads-lite.properties: '8'
+  play-services-ads.properties: '8'
+  play-services-appset.properties: '8'
+  play-services-base.properties: '8'
+  play-services-basement.properties: '8'
+  play-services-measurement-api.properties: '8'
+  play-services-measurement-base.properties: '8'
+  play-services-measurement-impl.properties: '8'
+  play-services-measurement-sdk-api.properties: '8'
+  play-services-measurement-sdk.properties: '8'
+  play-services-measurement.properties: '8'
+  play-services-stats.properties: '8'
+  play-services-tasks.properties: '8'
+  user-messaging-platform.properties: '8'
+  stamp-cert-sha256: '8'
+  com/appsflyer/internal/a-: '0'
+  com/appsflyer/internal/b-: '0'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_255: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_27: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_30: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_31: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_34: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_350: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_351: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_352: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_358: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_359: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_36: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_372: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_373: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_375: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_380: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_381: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_385: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_39: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_43: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_44: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_49: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_505: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_506: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_52: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_54: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_55: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_58: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_595: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_61: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_62: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_63: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_64: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_66: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_675: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_676: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_679: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_7: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_81: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_84: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_855: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_856: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_90: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_91: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_94: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_95: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_971: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_972: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberAlternateFormatsProto_995: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_800: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_808: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_870: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_878: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_881: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_882: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_883: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_888: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_979: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AC: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AD: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AE: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AF: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AG: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AI: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AL: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AM: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AO: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AR: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AS: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AT: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AU: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AW: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AX: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_AZ: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BA: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BB: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BD: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BE: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BF: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BG: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BH: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BI: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BJ: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BL: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BM: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BN: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BO: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BQ: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BR: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BS: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BT: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BW: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BY: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_BZ: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CA: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CC: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CD: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CF: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CG: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CH: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CI: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CK: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CL: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CM: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CN: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CO: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CR: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CU: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CV: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CW: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CX: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CY: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_CZ: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_DE: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_DJ: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_DK: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_DM: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_DO: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_DZ: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_EC: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_EE: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_EG: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_EH: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ER: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ES: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ET: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_FI: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_FJ: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_FK: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_FM: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_FO: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_FR: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GA: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GB: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GD: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GE: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GF: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GG: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GH: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GI: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GL: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GM: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GN: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GP: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GQ: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GR: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GT: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GU: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GW: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_GY: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_HK: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_HN: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_HR: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_HT: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_HU: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ID: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IE: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IL: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IM: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IN: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IO: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IQ: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IR: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IS: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_IT: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_JE: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_JM: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_JO: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_JP: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KE: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KG: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KH: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KI: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KM: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KN: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KP: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KR: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KW: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KY: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_KZ: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LA: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LB: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LC: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LI: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LK: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LR: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LS: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LT: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LU: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LV: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_LY: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MA: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MC: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MD: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ME: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MF: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MG: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MH: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MK: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ML: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MM: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MN: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MO: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MP: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MQ: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MR: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MS: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MT: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MU: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MV: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MW: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MX: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MY: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_MZ: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NA: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NC: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NE: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NF: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NG: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NI: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NL: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NO: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NP: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NR: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NU: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_NZ: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_OM: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PA: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PE: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PF: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PG: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PH: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PK: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PL: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PM: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PR: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PS: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PT: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PW: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_PY: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_QA: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_RE: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_RO: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_RS: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_RU: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_RW: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SA: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SB: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SC: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SD: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SE: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SG: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SH: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SI: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SJ: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SK: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SL: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SM: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SN: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SO: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SR: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SS: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ST: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SV: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SX: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SY: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_SZ: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TA: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TC: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TD: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TG: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TH: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TJ: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TK: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TL: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TM: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TN: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TO: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TR: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TT: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TV: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TW: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_TZ: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_UA: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_UG: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_US: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_UY: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_UZ: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_VA: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_VC: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_VE: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_VG: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_VI: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_VN: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_VU: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_WF: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_WS: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_XK: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_YE: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_YT: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ZA: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ZM: '8'
+  com/google/i18n/phonenumbers/data/PhoneNumberMetadataProto_ZW: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AC: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AD: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AE: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AF: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AG: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AI: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AL: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AM: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AO: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AR: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AS: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AT: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AU: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AW: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AX: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_AZ: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BA: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BB: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BD: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BE: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BF: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BG: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BH: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BI: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BJ: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BL: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BM: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BN: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BO: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BQ: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BR: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BS: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BT: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BW: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BY: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_BZ: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CA: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CC: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CD: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CF: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CG: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CH: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CI: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CK: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CL: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CM: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CN: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CO: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CR: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CU: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CV: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CW: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CX: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CY: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_CZ: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_DE: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_DJ: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_DK: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_DM: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_DO: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_DZ: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_EC: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_EE: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_EG: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_EH: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ER: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ES: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ET: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_FI: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_FJ: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_FK: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_FM: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_FO: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_FR: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GA: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GB: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GD: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GE: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GF: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GG: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GH: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GI: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GL: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GM: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GN: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GP: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GR: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GT: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GU: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GW: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_GY: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_HK: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_HN: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_HR: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_HT: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_HU: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ID: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IE: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IL: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IM: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IN: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IQ: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IR: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IS: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_IT: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_JE: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_JM: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_JO: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_JP: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KE: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KG: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KH: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KI: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KM: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KN: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KP: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KR: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KW: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KY: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_KZ: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LA: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LB: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LC: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LI: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LK: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LR: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LS: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LT: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LU: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LV: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_LY: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MA: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MC: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MD: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ME: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MF: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MG: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MH: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MK: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ML: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MM: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MN: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MO: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MP: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MQ: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MR: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MS: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MT: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MU: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MV: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MW: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MX: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MY: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_MZ: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NA: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NC: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NE: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NF: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NG: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NI: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NL: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NO: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NP: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NR: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NU: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_NZ: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_OM: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PA: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PE: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PF: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PG: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PH: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PK: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PL: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PM: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PR: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PS: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PT: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PW: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_PY: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_QA: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_RE: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_RO: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_RS: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_RU: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_RW: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SA: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SB: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SC: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SD: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SE: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SG: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SH: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SI: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SJ: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SK: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SL: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SM: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SN: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SO: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SR: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ST: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SV: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SX: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SY: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_SZ: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TC: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TD: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TG: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TH: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TJ: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TL: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TM: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TN: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TO: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TR: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TT: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TV: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TW: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_TZ: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_UA: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_UG: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_US: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_UY: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_UZ: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_VA: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_VC: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_VE: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_VG: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_VI: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_VN: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_VU: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_WF: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_WS: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_XK: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_YE: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_YT: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ZA: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ZM: '8'
+  com/google/i18n/phonenumbers/data/ShortNumberMetadataProto_ZW: '8'
+  google/protobuf/any.proto: '8'
+  google/protobuf/api.proto: '8'
+  google/protobuf/duration.proto: '8'
+  google/protobuf/empty.proto: '8'
+  google/protobuf/field_mask.proto: '8'
+  google/protobuf/source_context.proto: '8'
+  google/protobuf/struct.proto: '8'
+  google/protobuf/timestamp.proto: '8'
+  google/protobuf/type.proto: '8'
+  google/protobuf/wrappers.proto: '8'
+  okhttp3/internal/publicsuffix/NOTICE: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '0'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.8.1
+versionInfo:
+  versionCode: '1929102352'
+  versionName: 28.1.0.2352
